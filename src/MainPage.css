@@ -1,0 +1,23 @@
+.beers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.beers-grid .beer-item {
+  display: flex;
+  align-items: center;
+}
+
+.beers-grid .beer-item img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.beers-grid .beer-item .name {
+  font-weight: bold;
+}
+
+.beers-grid .beer-item .abv {
+  margin-left: auto;
+}

@@ -1,0 +1,26 @@
+.BeerInfo {
+  display: flex;
+}
+
+.BeerInfo-image {
+  width: 25%;
+  margin-right: 1em;
+}
+
+.BeerInfo-image img {
+  max-width: 100%;
+}
+
+.BeerInfo-data {
+  width: 75%;
+}
+
+.BeerInfo-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.BeerInfo-description {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
